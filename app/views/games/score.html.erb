@@ -1,0 +1,14 @@
+
+<h1>******** Now your result ********</h1>
+
+
+<h2> Your word: <%=@attempt%> </h2>
+<h2> Time Taken to answer: <%=@result[:time]%></h2>
+<h2>Your score: <%=@result[:score]%></h2>
+<h2>Message: <%=@result[:message]%></h2>
+
+<h2><%= link_to "Play again", game_path %>
+</h2>
+
+<h2><%=@amount%></h2>
+<h2><%=@average_score%></h2>
